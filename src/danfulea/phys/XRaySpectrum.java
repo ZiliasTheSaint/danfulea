@@ -221,7 +221,7 @@ public class XRaySpectrum {
 			int ikv = (new Double(kv)).intValue();
 			int ianod_file = (new Double(anodAngle)).intValue();
 			String uanodS = "";
-			if (anodAngle > 10) {
+			if (anodAngle >= 10) {
 				if (XRay.ianod == 0)
 					uanodS = ianod_file + "0";
 				else if (XRay.ianod == 1)

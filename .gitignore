@@ -30,3 +30,9 @@
 
 # Log file
 *.log
+
+*.dat
+*.ctrl
+
+*.png
+*.jpg

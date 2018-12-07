@@ -101,7 +101,7 @@ public class XRay {
 	public static void computeHVL12Kvp(int ikvp) {
 		ikv_file = ikvp;
 		String uanodS = "";
-		if (ianod_file > 10)
+		if (ianod_file >= 10)
 			uanodS = ianod_file + "0";
 		else
 			uanodS = "0" + ianod_file + "0";
